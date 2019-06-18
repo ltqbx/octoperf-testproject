@@ -1,0 +1,58 @@
+{
+  "created": 1560864336752,
+  "description": "",
+  "lastModified": 1560864336846,
+  "mode": "STANDARD",
+  "name": "Leopard Seal",
+  "userLoads": [
+    {
+      "bandwidth": {
+        "bitsPerSecond": 0,
+        "name": "UNLIMITED"
+      },
+      "browser": {
+        "cache": {
+          "cacheSize": 5000,
+          "clearCacheOnEachIteration": true,
+          "useCacheControlHeaders": true
+        },
+        "cookies": {
+          "clearOnEachIteration": true,
+          "policy": "STANDARD"
+        },
+        "name": "AS_RECORDED",
+        "userAgent": ""
+      },
+      "dns": {
+        "clearEachIteration": false,
+        "servers": [],
+        "staticHosts": {}
+      },
+      "jtl": {
+        "settings": [],
+        "type": "ALL"
+      },
+      "memory": {
+        "vuMb": null
+      },
+      "properties": {
+        "map": {}
+      },
+      "providerId": "Amazon EC2",
+      "region": "eu-north-1",
+      "strategy": {
+        "@type": "UserLoadRampup",
+        "delay": 0,
+        "iterations": null,
+        "onSampleError": "CONTINUE",
+        "peak": 300000,
+        "rampup": 300000,
+        "userload": 10
+      },
+      "thinktime": {
+        "thinktime": null
+      },
+      "virtualUserId": "Thread Group"
+    }
+  ]
+}
